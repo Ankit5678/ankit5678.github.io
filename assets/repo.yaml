@@ -1,0 +1,7 @@
+registry:
+  - url: cp.icr.io/cp/cpd
+    username: cp
+    apikey: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE1ODg1ODQ5MzcsImp0aSI6IjIxZWRjMjk0YzJkYjRmODk5MDMwNTBiZWEzMDdhNDhiIn0.xIKIu5sE4F7SjzEx-QyejhmX65RUM5e1k4gdsZXC6fI
+    name: base-registry
+fileservers:
+  - url: https://raw.github.com/IBM/cloud-pak/master/repo/cpd3
