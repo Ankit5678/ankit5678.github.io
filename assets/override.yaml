@@ -1,2 +1,2 @@
 nginxRepo:
-  resolver: “dns-default.openshift-dns”
+  resolver: "dns-default.openshift-dns"
