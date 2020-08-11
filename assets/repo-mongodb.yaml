@@ -1,0 +1,15 @@
+registry:
+  - url: hyc-cp4d-team-bootstrap-docker-local.artifactory.swg-devops.com
+    username: cp
+    apikey: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE1ODg1ODQ5MzcsImp0aSI6IjIxZWRjMjk0YzJkYjRmODk5MDMwNTBiZWEzMDdhNDhiIn0.xIKIu5sE4F7SjzEx-QyejhmX65RUM5e1k4gdsZXC6fI 
+    namespace: ""
+    name: base-registry
+  - url: hyc-cp4d-team-databases-docker-local.artifactory.swg-devops.com
+    username: cp
+    apikey: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE1ODg1ODQ5MzcsImp0aSI6IjIxZWRjMjk0YzJkYjRmODk5MDMwNTBiZWEzMDdhNDhiIn0.xIKIu5sE4F7SjzEx-QyejhmX65RUM5e1k4gdsZXC6fI
+    namespace: ""
+    name: databases-registry
+fileservers:
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/promoted/components/lite/latest
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/databases/latest
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/mongodb/828
