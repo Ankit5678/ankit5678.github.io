@@ -10,6 +10,6 @@ registry:
     namespace: ""
     name: databases-registry
 fileservers:
-  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/promoted/components/lite/latest
-  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/databases/latest
-  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/mongodb/828
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/promoted/components/lite/45
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/mongodb/888
+  - url: http://icpfs1.svl.ibm.com/zen/cp4d-builds/3.0.1/dev/components/databases/249
