@@ -1,0 +1,21 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: 0015-setup
+    chart: 0015-setup
+    component: ibm-nginx
+    heritage: Tiller
+    release: 0015-setup
+  name: icp4d-cpd
+spec:
+  #host: icp4d-cpd-icp4d.gen2-poc-cluster-4312ga-94e6e34ccf126340ed8a965bc7a7389c-0000.us-south.containers.appdomain.cloud
+  port:
+    targetPort: ibm-nginx-https-port
+  tls:
+    termination: passthrough
+  to:
+    kind: Service
+    name: ibm-nginx-svc
+    weight: 100
+  wildcardPolicy: None
