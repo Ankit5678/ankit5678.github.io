@@ -1,0 +1,6 @@
+zenCoreMetaDb:
+  storageClass: portworx-metastoredb-sc
+
+
+nginxRepo:
+  resolver: "dns-default.openshift-dns"
